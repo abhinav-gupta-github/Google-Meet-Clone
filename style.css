@@ -1,0 +1,139 @@
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  body{
+      padding: 10px;
+  }
+  .meet{
+      padding-left:4px;
+      color: #5f6368;
+      opacity: 1;
+      font-family: "Product Sans",Arial,sans-serif;
+      line-height: 24px;
+      position: relative;
+      top: -1.5px;
+      vertical-align: middle;
+      font-size: 22px;
+      display: flex;
+  }
+  .image-div{
+      display: flex;
+      align-items: center;
+  }
+  .time-display{
+      font-family: "Google Sans",Roboto,Arial,sans-serif;
+      font-size: 1.125rem;
+      color:rgb(95,99,104);
+      margin-right: 0.75rem;
+  }
+  .top-menu{
+      display: flex;
+  }
+  span{
+      padding-left: 6px;
+      padding-right: 6px;
+  }
+  .premium-meeting{
+      font-family: "Google Sans Display",Roboto,Arial,sans-serif;
+      font-size: 2.75rem;
+      font-weight: 400;
+      line-height: 3.25rem;
+      padding-bottom: 0.5em;
+      padding-left: 75px;
+      padding-top:45px;
+  }
+  .body-section-div{
+      display: flex;
+  }
+  .right-section{
+      padding-left: 350px;
+      padding-top: 50px;
+  }
+  .info-section{
+      font-family: "Google Sans",Roboto,Arial,sans-serif;
+      font-size: 1.125rem;
+      font-weight: 400;
+      line-height: 1.5rem;
+      color:var(--gm-color-caption,#5f6368);
+      max-width: 30rem;
+      padding-bottom: 3rem;
+      padding-left: 78px;
+      margin-top: -50px;
+  }
+  .join-meeting{
+      padding-left: 80px;
+      display: flex;
+  }
+  .new-meeting{
+      display: flex;
+      align-items: center;
+      
+      border-radius: 5px;
+      padding: 12px 10px 12px 10px;
+      background-color: #1A6DDE;
+      color: white;
+  }
+  .enter-url{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #ccc!important;
+      border-radius: 5px;
+      border-color: #1A6DDE;
+  }
+  input:focus{
+      outline: none;
+  }
+  input[type=text]:focus{
+  outline: none; 
+  }
+  input{
+      border: none!important;
+  }
+  input,
+  input::placeholder {
+      font: 16px sans-serif;
+  }
+  .get-link{
+      font-family: "Google Sans",Roboto,Arial,sans-serif;
+      line-height: 2rem;
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-top: 0.75rem;
+      display: flex;
+      justify-content: center;
+  }
+  .click-new-meeting{
+      font-family: Roboto,Arial,sans-serif;
+      font-size: 0.875rem;
+      letter-spacing: .0142857143em;
+      font-weight: 400;
+      display: flex;
+      justify-content: center;
+  }
+  #more-horiz{
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+  }
+  .learn-more{
+      padding-left: 70px;
+      padding-top: 20px;
+      letter-spacing: .00625em;
+      font-family: Roboto,Arial,sans-serif;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      color: var(--gm-color-caption,#5f6368);
+  }
+  .body-section-div{
+      padding-top: 85px;
+  }
+  .sub-right-section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
