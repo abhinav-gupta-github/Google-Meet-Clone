@@ -76,6 +76,7 @@
       padding: 12px 10px 12px 10px;
       background-color: #1A6DDE;
       color: white;
+      cursor: pointer;
   }
   .enter-url{
       display: flex;
