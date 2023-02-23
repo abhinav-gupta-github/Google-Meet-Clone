@@ -24,7 +24,7 @@
         </div>
         <div class="top-sub-menu">
           <span class="span-center">
-            <span class="time-display"> 10:32 AM Mon, Feb 20 </span>
+            <span id="spanDate" class="time-display"></span>
             <span class="material-symbols-outlined"> help </span>
             <span class="material-symbols-outlined"> sms_failed </span>
             <span class="material-symbols-outlined"> settings </span>
@@ -61,6 +61,7 @@
                 placeholder="Enter a code or link"
               />
             </div>
+            <span class="join" onclick="on()">Join</span>
           </div>
           <br /><br />
           <div style="padding-left: 80px">
@@ -114,5 +115,91 @@
         </div>
       </div>
     </div>
+    <div id="overlay">
+      <div>
+        <div id="text">
+          Invite people &nbsp;&nbsp;
+          <span class="material-symbols-outlined" onclick="off()">
+            cancel
+          </span>
+          <br />
+        </div>
+        <div id="invite-people">
+          <div>
+            <input
+              type="checkbox"
+              name="Ashutosh"
+              id="Ashutosh"
+              value="Ashutosh"
+            /><label>Ashutosh Gupta</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="Jagjeet"
+              id="Jagjeet"
+              value="Jagjeet"
+              onclick="addVal(this)"
+            /><label>Jagjeet Saini</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="Sourav"
+              id="Sourav"
+              value="Sourav"
+            /><label>Sourav Rajput</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="Prashant"
+              id="Prashant"
+              value="Prashant"
+            /><label>Prashant Sharma</label>
+          </div>
+          <div style="padding-top: 40px"></div>
+          <div class="invite">
+            <span>Invite</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
+
+<script>
+  function on() {
+    document.getElementById("overlay").style.display = "block";
+  }
+  function off() {
+    document.getElementById("overlay").style.display = "none";
+  }
+  function addVal(event) {
+    console.log(event);
+  }
+</script>
+<script type="text/javascript">
+  var months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  var tomorrow = new Date();
+  tomorrow.setTime(tomorrow.getTime() + 1000 * 3600 * 24);
+  document.getElementById("spanDate").innerHTML =
+    months[tomorrow.getMonth()].substring(0, 3) +
+    " " +
+    tomorrow.getDate() +
+    ", " +
+    tomorrow.getFullYear();
+</script>

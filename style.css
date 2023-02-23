@@ -145,3 +145,69 @@
     display: flex;
     align-items: center;
   }
+  .join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #1a73e8;
+    padding-left: 20px;
+    cursor: pointer;
+  }
+  .join:hover{
+    border-style: 1px solid grey;
+  }
+  #overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    
+  }
+  
+  #text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    display: flex;
+  }
+  #invite-people{
+    position:absolute;
+    top: 48%;
+    left: 41%;
+    font-size: 20px;
+    color: white;
+    transform: translate(-20%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    
+  }
+  label{
+    padding-left: 20px;;
+  }
+  .invite{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 30%;
+    padding: 7px;
+    cursor: pointer;
+  }
+  input[type="checkbox"]{
+    cursor: pointer; 
+    }
+    .invite:hover{
+        background-color: #1A6DDE;
+        border: 1px solid #ccc!important;
+    }
